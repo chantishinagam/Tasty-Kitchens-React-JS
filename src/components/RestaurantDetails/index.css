@@ -1,0 +1,156 @@
+.restaurant-details-container {
+  display: flex;
+  background-color: #333333;
+}
+
+.restaurant-details-image {
+  height: 120px;
+  width: 140px;
+  margin-right: 20px;
+}
+
+.restaurant-details-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.restaurant-details-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: -5px;
+  color: #ffffff;
+}
+
+.restaurant-details-cuisine {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: -5px;
+  color: #ffffff;
+}
+
+.restaurant-location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: -5px;
+  color: #ffffff;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.restaurant-details-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.restaurant-ratings-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+.rating-star {
+  margin-right: 5px;
+  color: #ffffff;
+}
+
+.ratings {
+  font-family: DM Sans;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.ratings-count {
+  font-family: DM Sans;
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #e2e8f0;
+}
+
+.vertical-line {
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid #e2e8f0;
+  color: #ffffff;
+}
+
+.cost {
+  font-family: DM Sans;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.cost-for-two {
+  font-family: DM Sans;
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #e2e8f0;
+}
+
+.food-item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+
+.restaurants-details-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-details-container {
+    padding: 30px 100px 30px 70px;
+    height: 320px;
+    width: 1440px;
+  }
+  .restaurant-details-image {
+    width: 445px;
+    height: 260px;
+    margin-left: 80px;
+    border-radius: 8px;
+  }
+  .restaurant-details-heading {
+    margin-top: 30px;
+    font-size: 32px;
+  }
+  .restaurant-details-cuisine {
+    font-size: 16px;
+  }
+
+  .location {
+    font-size: 16px;
+  }
+  .food-item-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+  }
+}

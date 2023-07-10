@@ -1,0 +1,140 @@
+.restaurant-link-item {
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.restaurant-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.restaurant-image {
+  width: 120px;
+  max-width: 160px;
+  height: 80px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.restaurant-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.restaurant-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: -10px;
+  color: #334155;
+}
+
+.restaurant-cuisine {
+  font-family: DM Sans;
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: -5px;
+  color: #64748b;
+}
+
+.restaurant-user-rating {
+  display: flex;
+  align-items: center;
+}
+
+.restaurant-rating-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.restaurant-star {
+  width: 15px;
+  height: 17px;
+  margin-right: 5px;
+  color: #ffcc00;
+}
+
+.restaurant-rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #0f172a;
+}
+
+.restaurant-reviews {
+  font-size: 14px;
+  font-weight: normal;
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .restaurant-link-item {
+    text-decoration: none;
+    width: 50%;
+    margin-right: 30px;
+  }
+
+  .restaurant-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .restaurant-image {
+    width: 120px;
+    max-width: 160px;
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .restaurant-link-item {
+    text-decoration: none;
+    width: 30%;
+    margin-right: 30px;
+  }
+
+  .restaurant-item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+  }
+
+  .restaurant-image {
+    width: 130px;
+    max-width: 160px;
+    height: 90px;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+
+  .restaurant-name {
+    margin-bottom: -10px;
+  }
+
+  .restaurant-cuisine {
+    font-size: 12px;
+    margin-bottom: -5px;
+  }
+
+  .restaurant-star {
+    width: 15px;
+    height: 17px;
+  }
+
+  .restaurant-rating {
+    font-size: 14px;
+  }
+
+  .restaurant-reviews {
+    font-size: 12px;
+  }
+}

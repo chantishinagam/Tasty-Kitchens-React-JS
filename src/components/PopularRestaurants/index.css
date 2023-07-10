@@ -1,0 +1,85 @@
+.popular-restaurants {
+  padding: 20px;
+}
+
+.restaurants-hr-line {
+  display: none;
+  border: 1px dashed #cbd2d9;
+  width: 100%;
+}
+
+.no-restaurants-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+}
+
+.no-restaurants-heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 40px;
+  margin-top: 30px;
+  text-align: center;
+  color: #334155;
+}
+
+.restaurants-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.restaurants-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pagination-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pagination-arrow-icon {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.restaurants-page-numbers {
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #334155;
+}
+
+.restaurants-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurants-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .restaurants-hr-line {
+    display: block;
+  }
+}
